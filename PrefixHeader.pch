@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  BeautyChange
+//
+//  Created by SinoKor on 16/4/8.
+//  Copyright © 2016年 chenyong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "ProgressHUD.h"
+#define QQLOGIN_ID @"1105330222"
+#define WXLOGIN_ID @"wxa1e9e00667bcb2a7"
+#define WXLOGIN_SECRET @"62dae03cef22d1f9533d0b407b6f41b2"
+
+#define kScreenWidth  [[UIScreen mainScreen]bounds].size.width
+#define kScreenHeight [[UIScreen mainScreen]bounds].size.height
+#define SCALE kScreenWidth/414.0f
+
+/** RGB颜色 */
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#endif /* PrefixHeader_pch */
